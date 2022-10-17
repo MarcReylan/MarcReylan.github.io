@@ -11,12 +11,16 @@
     padding: 30px;
     text-align: center;
     font-size: 35px;
-    color: white;
+    color: rgb(190, 46, 27);
     font-family: 'Alkalami', serif;
+   
+    background-image: url(https://sm.ign.com/t/ign_es/news/e/elden-ring/elden-ring-publisher-wants-to-work-with-wheel-of-times-brand_ubv2.h720.jpg);
 }
         nav{
      float: left;
     width: 30%;
+    text-align: left;
+    font-size: 15px;
     
     background: rgb(255, 255, 255);
     padding: 20px;
@@ -43,6 +47,9 @@
     padding: 10px;
     text-align: center;
     color: white
+    
+
+    
 }
             @media only screen and (max-width: 620px)
 {
