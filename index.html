@@ -1,90 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <!-- Latest compiled and minified CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Document</title>
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Latest compiled JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>
-    <header>
-        <div class="container-fluid p-5 my-10 bg-dark text-white .d-block">
-            <center><h1>REYLAN WEB</h1></center>
+  <header>
+    
+    <div class="container-fluid p-5 my-10 bg-dark text-white .d-block">
+      <center>
+        <h1>REYLAN WEB</h1>
+      </center>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">MI PÁGINA WEB</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Favoritos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="pagina2.html">ARMAS FAVORITAS del Valorant</a></li>
+                <li><a class="dropdown-item" href="comida.html">Comida Favorita</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://cl.buscafs.com/www.levelup.com/public/uploads/images/636044/636044.jpg" alt="aaa"
+            class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="https://support-valorant.riotgames.com/hc/article_attachments/7088900088979" alt="Hidra"
+            class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPTbzGrpPG2Dmqew_BjzayI2hj4u8y0wAOpQ&usqp=CAUss"
+            alt="Kong" class="d-block w-100">
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    <main role="main" class="container">
+      <div class="row">
+        <div class="col-md-8 blog-main">
+          <h3 class="pb-3 mb-4 font-italic border-bottom">
+            PRESENTACIÓN
+          </h3>
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">INTRODUCCIÓN</h2>
+
+            <p>Bienvenidos una vez más a mi página web. Aqui podreis encontrar información sobre mi y mis gustos en la barra de navegación, aunque la mayoria de conceptos sea relacionados con Valorant, por asi decir es mi juego favorito. </p>
+            <hr>
+            <p>Bueno pues voy presentandome. Yo soy Marc Reylan, tengo 17 años y mi afición es ir al gimnasio y de vez en cuando programar. En ste momento mi TRB consiste en la creación de un modelo de mejora de la antigua web del centro (antigua porque mientras que se estaba realizando el TRB se ha modificado la web). Y sí, también me gustaria dedicarme al DAW, grado superior de desarrollo de aplicaciones web porque me interesa.</p>
+            <h2>JUEGOS QUE SUELO JUGAR</h2>
+            <p>Yo tengo varios juegos, pero ya vusto en el slider de imágenes o en el carroussel, principalmente es el Valorant. Pero no nos olvidemos de juegos míticos como el Minecraft o descargando mediante por interet juegos antiguos como Pokemon Heartgold, este fue mi primer juego de la Nintendo 3ds y jugarlo desde el PC da mucha nostalgia.</p>
+            <h3>GYM</h3>
+            <p>También como dicho antes, suelo ir en el gimnasio y a continuación podeis ver algunos records en algunos ejercicios del gimnasio</p>
+            <pre><code>Algunos PR's de algunos ejercicios:</code></pre>
+            <p>- Prensa: 270kg</p>
+            <p>- Press banca: 60kg</p>
+            <p>- Press con Mancuernas: 24kg</p>
+            <p>- Curl con Barra z: 30kg</p>
+            <p>- Sentadilla con barra en Multipower: 70kg</p>
+            <h3>TIEMPO LIBRE</h3>
+            <p>En mis tiempos libres suelo dormir en la mayoria de dias. También suelo ir al gimansio pero solo, porque si voy acompañado por asi decir que me molestan, por eso prefiero ir solo al gimnasio. Y también suelo estar con la familia aunque ellos estan muy ocupados.</p>
+          </div><!-- /.blog-post -->
+
+
+        </div><!-- /.blog-main -->
+
+        <aside class="col-md-4 blog-sidebar">
+          <div class="p-3 mb-3 bg-light rounded">
+            <h4 class="font-italic">INFO</h4>
+            <p class="mb-0">Bienvenidos a mi página web. Aqui podreis ver quien soy yo y mis preferencias.</p>
           </div>
-    
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">MI PÍGINA WEB</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">inicio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Favoritos
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="pag2.html">ARMAS FAVORITAS del Valorant</a></li>
-                          <li><a class="dropdown-item" href="#">Series</a></li>
-                          <li><a class="dropdown-item" href="#">Juegos</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                      </li>
-                    </ul>
-                    <form class="d-flex">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                  </div>
-                </div>
-              </nav>
-                <!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-  <!-- Indicators/dots -->
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-  </div>
+          <div class="p-3">
+            <h4 class="font-italic">Pelis o Series Favoritos</h4>
+            <ol class="list-unstyled mb-0">
+              <li><a href="https://www.filmaffinity.com/es/film159696.html">The Boys</a></li>
+              <li><a href="https://es.wikipedia.org/wiki/Monster_(manga)">Monster</a></li>
+              <li><a href="https://www.filmaffinity.com/es/film991024.html">The Host</a></li>
+              <li><a href="https://saikikusuo-no-psinan.fandom.com/wiki/Saiki_Kusuo">Saiki K</a></li>
+              <li><a href="https://es.wikipedia.org/wiki/Hunter_%C3%97_Hunter">Hunter x Hunter</a></li>
+              <li><a href="https://es.wikipedia.org/wiki/Jujutsu_Kaisen">Jujutsu Kaisen</a></li>
+              <li><a href="https://es.wikipedia.org/wiki/Vivo_(pel%C3%ADcula_de_2020)">Alive</a></li>
+              <li><a href="https://as.com/meristation/2021/07/16/noticias/1626424951_610076.html">La Purga (Saga)</a></li>
+              <li><a href="https://inazuma.fandom.com/es/wiki/Inazuma_Eleven_Wiki">Inazuma Eleven</a></li>
+              <li><a href="https://skdesu.com/es/anime/hajime-no-ippo/">Hajime no Ippo</a></li>
+              <li><a href="https://www.imdb.com/title/tt5034838/">Godzilla vs Kong</a></li>
+              <li><a href="https://eloutput.com/cine-series/reportajes/rocky-peliculas/">Rocky (Saga)</a></li>
+            </ol>
+          </div>
+        </aside><!-- /.blog-sidebar -->
 
-  <!-- The slideshow/carousel -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://cl.buscafs.com/www.levelup.com/public/uploads/images/636044/636044.jpg" alt="aaa" class="d-block w-100">
-    </div>
-    <div class="carousel-item">
-      <img src="https://support-valorant.riotgames.com/hc/article_attachments/7088900088979" alt="Hidra" class="d-block w-100">
-    </div>
-    <div class="carousel-item">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPTbzGrpPG2Dmqew_BjzayI2hj4u8y0wAOpQ&usqp=CAUss" alt="Kong" class="d-block w-100">
-    </div>
-  </div>
+      </div><!-- /.row -->
 
-  <!-- Left and right controls/icons -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
+    </main><!-- /.container -->
 
-    </header>
-    
+
+  </header>
+
 </body>
+
 </html>
